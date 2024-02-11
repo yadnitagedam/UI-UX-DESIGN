@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+@media(max-width:998px){
+    html {
+    font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    html {
+    font-size: 45%;
+    }
+}
+                                                              /* HEADER-SECTION */
+header{
+    background-image: url(/images/home\ img\ -podcast.webp);
+    width: 100%;
+    height: 70rem;
+   
+
+}
+.navbar{
+    background: linear-gradient(to right, pink, skyblue);
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    height: 8rem;
+    width: 8rem;
+    
+}
+/* .nav li{
+     
+} */
+.nav-menu{
+    text-decoration: none;
+    padding: 3rem;
+    font-size: 1.5rem;
+}
+.nav-menu:hover{
+    color: #0C6674;
+}
+                                                         /* MUSIC-SEC */
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 5rem;
+    font-weight: lighter;
+    text-align: center;
+    color: #B6B8BC;
+}
+.chart{
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.chart-list{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 3rem;
+    border-radius: 7px;
+   
+}
+.chart-list:hover{
+    box-shadow: .1rem .2rem 1rem black;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+}
+/* #INTERNATIONAL{
+   
+} */
+/* .chart-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    background-color: aquamarine;
+} */
+.playicon{
+    width: 2rem;
+    height: 2rem;
+    
+}
+#chartli1{
+    height: 20rem;
+    width: 20rem;
+}
+.chart-link{
+    text-decoration: none;
+}
+.container1 {
+    margin-top: 10rem;
+    border-top-right-radius: 40rem;
+    border-bottom-left-radius: 50rem;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to top,#A1B9BE,#F3CEBD);
+  }
+
+  .con1-child{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 9rem;
+  }
+.creation-h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    margin-right: 20rem;
+    color: black;
+}
+.creation-p{
+    margin-top: 4rem;
+    margin-right: 20rem;
+    font-size: 2.5rem;
+    line-height: 3rem
+}
+                                                              /* DIFFERENT-SEC */
+
+.diff-sec{
+    height: 10vh;
+    width: 100%;
+    animation: 3s linear 1s infinite running slidein;
+}
+#diff-h{
+    color: black;
+    text-align: center;
+   word-spacing: 2rem;
+}
+@keyframes slidein{
+    from{
+        left: 0;
+        background: #EFCDBD;
+    }
+    to{
+        left: 60%;
+        background: #A5BABD;
+    }
+}
+.diff-img{
+    width: 20rem;
+    height: 10vh;
+}
+#playicon{
+    width: 9rem;
+    height: 4rem;
+}
+                                                              /* podcast section */
+                                        
+#podcast-img-link{
+    width: 7rem;
+    height: 7rem;
+    rotate: -60deg;
+    margin-top: 9rem;
+    margin-left:  10.2rem;
+    border-radius: .7rem;
+
+}
+#heading3{
+    color: #fff;
+}
+
+#chartlist1{
+    background: linear-gradient(to right, #0C6674,#05282D);
+}
+#chartlist2{
+    background: linear-gradient(to right, #D7AEB5,#5F4D50);
+}
+#chartlist3{
+    background: linear-gradient(to right, #71924B,#2D381F);
+}
+#chartlist4{
+    background: linear-gradient(to right, #DD7A9B,#B81A46);
+}
+#chartlist5{
+    background: linear-gradient(to right, #21285F,#0F1123);
+}
+#chartlist6{
+    background: linear-gradient(to right, #AE180B,#4B0C06);
+}
+
+                                                   /* CREATION SEC */
+.creation-sec{
+    margin-top: 10rem;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #F9F9FA;
+}
+.crea-img1{
+    height: 40rem;
+    padding: 4rem;
+}
+.cre-sec{
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    width: 6orem;
+}
+.cre-info{
+    font-size: 2rem;
+}
+.cre-link{
+    color: #313f43;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.cre-link:hover{
+    color: #189DEB;
+}
+                                                                 /* creation-sec2 */
+.cre-sec2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+}
+.cre-image2{
+    width: 20rem;
+    height: 20rem;
+}
+.cre-image3{
+    width: 20rem;
+    height: 10rem;
+}
+#cre-h1{
+    width: 70rem;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing:.4rem;
+}
+                                                                      /* cre-sec3 */
+
+.cre-sec3{
+    width: 60rem;
+}            
+.cre-sec3-h1{
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    color:black;
+    letter-spacing: .4rem;
+    font-family: 'Domine', serif;
+}             
+.cre-sec3-p{
+    font-size: 2rem;
+    color:black;
+    letter-spacing: .4rem;
+    font-family: 'Domine', serif;
+}                                           
+                                                                    /* button-section */
+.btn-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+    height: 40rem;
+    background-color: #BDE8EC;
+}
+.btn-sec:hover{
+    background:linear-gradient(to right,#DCC6C8,#FC968A) ;
+}
+.btn1{
+   height: 5rem;
+   width: 20rem;
+   margin-left: 10rem;
+   background-color: #FEB104;
+   border-radius: 10rem;
+   font-size: 1.5rem;
+   font-weight: bold;
+   letter-spacing: 0.4rem;
+   font-family: 'Signika', sans-serif;
+}
+.btn1:hover{
+    background: linear-gradient(to right,#D4B1B7,#4EE2C2);
+   
+}
+.btn2{
+    height: 5rem;
+    width: 20rem;
+    margin-left: 10rem;
+    background-color: #1ED860;
+    letter-spacing: .4rem;
+    font-weight: bold;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+    font-family: 'Signika', sans-serif;
+}
+.btn2:hover{
+    background: linear-gradient(to right,#008B48,#006C71);
+}
+.btn-link{
+    text-decoration: none;
+}
+.btn-link:hover{
+    color: black;
+    
+}
+                                                                      /* CREATION-SECTION-4 */
+.cre-sec4-p{
+    width: 70rem;
+    margin-left: 40rem;
+    font-size: 4rem;
+    text-align: center;
+    color:#008080;
+    letter-spacing: .4rem;
+    font-family: 'Domine', serif;
+}
+.cre-sec4-img{
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    width: 70rem;
+    margin-left: 40rem;
+}
+                                                                      /* FOOTER-SECTION */
+.ft-container{
+    margin-top: 10rem;
+    background: #9C9DEF;
+    display: flex;
+    justify-content: space-around;
+}
+.ft-container h4{
+    font-size: 2rem;
+    margin-top: 10rem;
+}
+.ft-container a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+.ft-container a:hover{
+    color:#302E81 ;
+    transition: margin-right 1s;
+}
+
+.ft-sec-img{
+    width: 40rem;
+    height: 40rem;
+}
+ul{
+    margin-top: 2rem;
+    list-style: none;
+}
+#follow-link{
+    display: flex;
+    justify-content: space-around;
+}
+.ft-container ul img{
+    width: 4rem;
+    height: 4rem;
+}
+.ft-container ul img:hover{
+    border-radius: 60%;
+    background: #fff;
+    transition: 1s right;
+    transition: ease 1s;
+    -webkit-transition: ease 1s;
+    -moz-transition: ease 1s;
+    -ms-transition: ease 1s;
+    -o-transition: ease 1s;
+}
