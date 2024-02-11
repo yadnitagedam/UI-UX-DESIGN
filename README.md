@@ -1,4 +1,3 @@
-![Screenshot 2024-02-11 123957](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/3d32c443-b075-4c4e-bf3b-ab4e8d976db1)# UI-UX-DESIGN
 
 # 1) CAKE SITE
 immerse yourself in a delightful journey of confectionery exploration with our cake site's seamless UI/UX, where every click is as satisfying as the first bite of your favorite dessert.
