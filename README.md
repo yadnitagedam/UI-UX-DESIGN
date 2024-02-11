@@ -12,4 +12,5 @@ Welcome to our food site UI/UX page! Discover a seamless blend of culinary inspi
 # Front-Page
 ![Screenshot 2024-02-11 131850](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/260287a2-9dca-4733-b0f5-952cdea51854)
 # Order-page
-![Uploading Screenshot 2024-02-11 131918.png…]()
+![Screenshot 2024-02-11 131918](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/90da38ad-07ae-415b-a392-4264584dbd57)
+
