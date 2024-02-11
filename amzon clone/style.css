@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body{
+    background-color: #E3E6E6;
+}
+
+.navbar{
+    height: 65px;
+    background-color:#131921 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.nav-logo{
+   height: 50px;
+   width:100px ;
+}
+
+
+.logo{
+    background-image:url(/images/amazon_logo.png) ;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* BOX2 */
+
+.add-first{
+    color: #C6C4C7;
+    font-size: 0.80rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    font-size: 0.90rem ;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+  /* BOX3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 710px;
+    height: 45px;
+    border-radius: 4px;
+}
+
+
+.nav-search:hover{
+   border: 3px solid #FF9900;
+}
+
+
+.search-select{
+    background-color:#D4D4D4 ;
+    width: 55px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-weight: lighter;
+    columns: #D4D4C0;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.Search-icon{
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#F3A847;
+    color: #333333;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+/* BOX4 */
+
+.select-languages{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.india-icon{
+    height: 30px;
+    width: 30px;
+}
+.india-icon-img{
+    height: 23px;
+    width: 20px;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+.select-languages-options{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    margin-top: 8px;
+}
+
+/* BOX5 */
+
+span{
+    font-size: 0.80rem;
+}
+
+
+.nav-second{
+    font-size: 0.90rem;
+    font-weight: bolder;
+}
+
+
+/* BOX6          all ready given style to it based on similar class of box5*/
+
+
+
+/* BOX7 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: bolder;
+}
+
+
+/* NAVIGATION PANEL SECTION  */
+
+.panel{
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    color: #F8F5F9;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.panel-all{
+    font-weight: bold;
+    font-size: 0.90rem;
+}
+
+.panel-options p{
+    display: inline;
+    font-size: 0.86rem;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 9px;
+}
+
+.Prime-select{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+
+/* HERO SECTON */
+
+/* .hero-section{
+   background-image: url(images/PC_HERO_img\ \(2\).jpg);
+   height: 700px;
+   background-size: cover;
+   position: relative;
+} */
+
+
+.img-container{
+    position: relative;
+}
+
+.image-list{
+   display: flex;
+}
+
+.img-item{
+    min-width: 100%;
+}
+
+.img-item img{
+    width: 100%;
+    height: 700px;
+    transition: transform 0.3s;                                                                  
+}
+
+.img-btn-container{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.slider-btn{
+    border: 2px solid transparent;
+    padding: 100px 20px;
+    font-size: 50px;
+    font-weight: 300;
+    background-color: transparent;
+    color: black;
+}
+
+
+
+.slider-btn:focus{
+    border-color: #48CDC7;
+    box-shadow: -2px -2px 2px rgb(230, 227, 227),2px 2px 2px white;
+    margin: 2px;
+}
+
+/* SHOPE-SECTION */
+
+.shope-section{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 420px;
+    bottom: 0px; 
+    width: 100%;
+}
+
+.offers-span{
+   color: #48CDC7;
+
+}
+
+.box1 .offers-spa{
+    margin-top: 10px;
+}
+
+.box2 .box3 .child-box{
+        padding-bottom: 10px;
+}
+
+.box{
+    height: 370px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    background-color: #FFFFFF;
+}
+
+/* BOX1 */
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content h2{
+    margin-bottom: 7px;
+    font-size: 1.3rem;
+}
+.box-img{
+   height:290px ;
+   background-size: cover;
+}
+
+/* BOX2 */
+
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.child-box-span{
+    margin-bottom: 10px;
+}
+
+
+.four-box{
+   margin-left: 4px;
+    height: 110px;
+    width: 140px;
+}
+
+
+.child-box{
+    height: 150px;
+    width: 150px;
+}
+
+ span{
+    font-size: 0.7rem;
+    margin-bottom: 6px;
+}
+
+
+/* BOX4 */
+
+.signup-box{
+    height: 120px;
+    width: 360px;
+    background-color: #FFFFFF;
+}
+
+.signup-box h2{
+    margin-left: 1rem;
+    margin-top: 20px;
+    font-size: 1.3rem;
+
+}
+
+
+.signup-box button{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 300px;
+    height: 26px;
+    background: #F7CA00;
+    border-radius: 10px;
+    border: none;
+    font-weight: lighter;
+    color: black;
+
+}
+.gif{
+    position:absolute;
+    right:50px;
+    top: 130px;
+}
+
+/* SHOPE SECTION2 */
+
+.shope-section2 .box{
+    margin-left: 10px;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+
+
+.shope-section2{
+    display: flex;
+    margin-left: 10px;
+}
+
+
+/* ROW */
+
+.shope-section2{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/* SLIDEER-SEC */
+
+.slider-sec{
+    height: 280px;
+    background-color: #FFFFFF;
+    margin-top: 17px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.slider-content{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.slider-content span{
+    margin-left: 10px;
+    color: #287494;
+    font-size: 0.8rem; 
+    padding-top: 7px;
+
+}
+
+.slider-content h2{
+    font-size: 1.3rem;
+}
+
+.img-to-slide{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-btn-slide{
+    position: absolute;
+    top: 1300px;
+    display: flex;
+    justify-content: space-between;
+    width: 99%;                        
+}
+.slide-to-btn{
+    border: 2px solid transparent;
+    padding: 100px 20px;
+    font-size: 50px;
+    font-weight: 300;
+    background-color: transparent;
+    color: black;
+}
+
+.slide-to-btn:focus{
+    border-color: #48CDC7;
+    box-shadow: -2px -2px 2px rgb(230, 227, 227),2px 2px 2px white;
+    margin: 2px;
+}
+
+
+
+/* BOOKING SECTION  */
+
+
+
+.book{
+    margin-top: 20px;
+}
+.booking-train{
+    background-color:#FFFFFF ;
+    padding: 25px 25px 25px 25px;
+}
+
+
+.booking-train img{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+}
