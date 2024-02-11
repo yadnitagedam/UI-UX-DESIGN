@@ -47,6 +47,11 @@ Explore a vast collection of tunes across genres, artists, and eras, all at your
 # Footer-Page
 ![Screenshot 2024-02-11 131806](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/de4b93ea-3d55-4405-93df-74056f80cf83)
 
+# 6)
+Welcome to our gaming login page, your gateway to endless adventures! Enter your credentials and unlock a world of immersive gameplay, camaraderie, and competition.
+# Login-Page
+![Screenshot 2024-02-11 130751](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/f89d6ae3-7241-4f17-9967-42274ab49238)
+
 
 
 
