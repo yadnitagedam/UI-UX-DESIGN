@@ -30,3 +30,41 @@ Discover the perfect brew for every occasion with our user-friendly interface, d
 ![Screenshot 2024-02-11 131256](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/9845acd0-72ee-42fa-8531-06e858068aa4)
 # SignUp-Page
 ![Screenshot 2024-02-11 131345](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/e770d836-dfbd-4214-adde-571deb6f5a29)
+
+# 5) MUSIC-SITE
+Explore a vast collection of tunes across genres, artists, and eras, all at your fingertips. Our sleek and user-friendly interface ensures seamless navigation, making it easy to find the perfect soundtrack for any moment.
+![Screenshot 2024-02-11 131442](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/77ea3725-bf35-43a7-b600-1f86dc46fee2)
+# Secound-Page
+![Screenshot 2024-02-11 131520](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/e6e59150-246b-4b44-b0fd-d4191f915939)
+# Third_Page
+![Screenshot 2024-02-11 131616](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/c5dd593d-edd8-48ab-8c3f-7cb5002932f0)
+# Four-Page
+![Screenshot 2024-02-11 131639](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/979eebcf-9680-4098-85a8-f9edb7b21216)
+# Fifth -Page
+![Screenshot 2024-02-11 131704](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/afd79949-06f4-4c5e-ba99-ce030f7276b6)
+# Sixth-Page
+![Screenshot 2024-02-11 131735](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/ace660af-2f7d-4059-afea-6dde6964d790)
+# Footer-Page
+![Screenshot 2024-02-11 131806](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/de4b93ea-3d55-4405-93df-74056f80cf83)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
