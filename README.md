@@ -1,4 +1,4 @@
-
+![image](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/2335032f-086e-47d6-a7ec-38d91408784a)
 # 1) CAKE SITE
 immerse yourself in a delightful journey of confectionery exploration with our cake site's seamless UI/UX, where every click is as satisfying as the first bite of your favorite dessert.
 ![Screenshot 2024-02-11 115735](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/5310fed8-ce06-4987-9304-ac67f58cc6e4)
@@ -52,8 +52,18 @@ Welcome to our gaming login page, your gateway to endless adventures! Enter your
 # Login-Page
 ![Screenshot 2024-02-11 130751](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/f89d6ae3-7241-4f17-9967-42274ab49238)
 
-
-
+7) # Grid Gallery
+8) Hey there! Our grid gallery website is a breeze to use and looks fantastic! Whether you're into sleek modern designs or something more traditional, we've got you covered. You'll find it super easy to find and enjoy all your favorite content. Plus, we offer tons of customization options, so you can make it your own! Ready to dive in and see for yourself?
+![Screenshot 2024-02-13 170123](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/62e1b569-e0f5-4209-905e-f6cb914cc939)
+# Second -Page
+![Screenshot 2024-02-13 170201](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/e6859826-32be-4077-a81b-08e7a004d8a3)
+# Third_page
+![Screenshot 2024-02-13 170224](https://github.com/yadnitagedam/UI-UX-DESIGN/assets/149067592/a2660b48-b071-4b55-8302-d56edb732868)
+# Fourth_Page
+![Uploading Screenshot 2024-02-13 170246.png…]()
+# Fifth-Page
+# Seventh-Page
+![Uploading Screenshot 2024-02-13 170333.png…]()
 
 
 
