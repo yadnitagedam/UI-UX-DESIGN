@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***** Section Header *****/ 
+header{
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    background:white;
+    box-shadow: 2px 2px 2px rgb(146, 138, 138) ;
+
+
+    & nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        & .logo h2{
+            font-size: 2.5rem;
+            font-weight: bold;
+            font-variant: small-caps;
+            color: transparent;
+            padding: 1rem;
+            overflow:hidden;
+            color:#000;
+            text-shadow: 0 .1rem .9rem black;
+}
+
+        & .menu{
+            display: flex;
+    
+           & h3 a{
+            padding: 3rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+
+            &:hover{
+                color: #000;
+                border-bottom: 2px solid #0000;
+            }
+            }
+        }
+    }
+
+
+
+}
+/***** End Section Header *****/
+
+
+/* ? Header Media view start */
+
+@media (width <= 998px) {
+    html{
+        font-size: 53%;
+    }
+    header{
+        width: 162%;
+        position: static;
+      
+        & nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1rem;
+    
+            & img{
+                width: 9rem;
+                height: 5rem;
+            }
+    
+            & .menu{
+                display: flex;
+        
+               & h3 a{
+                padding: 2rem;
+                font-size: 2rem;
+                color: #000;
+                text-decoration: none;
+    
+                /* &:hover{
+                    color: #0000;
+                    border-bottom: 2px solid #0000;
+                } */
+                }
+            }
+        }
+    
+    
+    
+    }
+}
+/* ? Header Media view end */
+
+
+/***** Section1 Start *****/ 
+
+.section1{
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    justify-content: space-around;
+    place-items: center;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-row: 440rem; */
+    
+    & .container1{
+        /* width:100%;
+        height:69rem;
+        background: #DAE9EE;
+        border-top-right-radius: 80rem;
+        border-bottom-left-radius: 90rem; */
+
+    & form{
+        width:30rem ;
+        height: 30rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border: .2rem solid var(--lightMainColor2);
+        animation: popupForm 1s ease-out 1s forwards;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    background:linear-gradient(to bottom,#EBCCBD,#DAE9EE);
+
+        /* background-image:url(/images/womanDriver1-.png); */
+        /* background-repeat: no-repeat;
+        background-size: cover; */
+
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        }
+
+    & input{ background:transparent;
+            font-weight: 500;
+            color: #423E4C;
+            border: none;
+            text-align: left;
+            padding: .5rem;
+            font-size: 1rem;
+            margin: .4rem;
+            border-radius: .2rem;
+            -webkit-border-radius: .2rem;
+            -moz-border-radius: .2rem;
+            -ms-border-radius: .2rem;
+            -o-border-radius: .2rem;
+
+
+            &:hover{
+            background: #eeeeee96;
+                
+            }
+           }
+
+           & .btn{
+
+           & button{
+             width: 10rem;
+             height: 2rem;
+             /* margin: 1.9rem; */
+             background: #DAE9EE;
+             border-radius:.4rem ;
+             border: .1rem solid skyblue;
+             -webkit-border-radius:.4rem ;
+             -moz-border-radius:.4rem ;
+             -ms-border-radius:.4rem ;
+             -o-border-radius:.4rem ;
+
+             &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                
+               }
+             
+             & a{
+                text-decoration: none;
+                font-weight: 500;
+             }
+           }
+        }
+    }
+    }
+
+    & .middle-section{
+        /* background:#DAE9EE ; */
+    background:linear-gradient(to bottom,#EBCCBD,#DAE9EE);
+        width: 60rem;
+        height: 43em;
+        border-top-left-radius: 90rem;
+        border-bottom-right-radius: 80rem;
+        padding-top: 13rem;
+        padding-left: 13rem;
+
+        & p{
+            width: 30rem;
+            font-size: 1.3rem;
+            line-height: 1.5;
+            color: #5b5858;
+            letter-spacing: .1rem;
+            text-align: center;
+        }
+
+    }
+}
+
+
+/* ? Animations start */
+
+@keyframes popupForm {
+    from {
+        opacity: 1;
+        transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        -moz-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        -o-transform: translateX(50%);
+}
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* ? Animations End */
+
+
+
+
+/*? Section1 Media View Start  */
+
+@media (width <= 998px){
+    .section1{
+
+        grid-template-columns: repeat(1,1fr);
+        grid-row: 100rem;
+        padding-top: 10rem;
+       
+       
+        
+        & .container1{
+            /* width:80rem ;
+            height: 50rem; */
+            margin-left: 22rem;
+          
+
+    
+        & form{
+            display: flex;
+            flex-direction: column;
+            padding: 3rem;
+            width: 50rem;
+            height: 50rem;
+            background:linear-gradient(to bottom,#EBCCBD,#DAE9EE);
+            /* background-image: url(/images/womanDriver1-.png);
+            background-size: cover;
+            background-repeat: no-repeat; */
+    
+    
+            & input{
+                background: transparent;
+                font-weight: 500;
+                color: #000;
+                border: none;
+                text-align: left;
+                padding: 1rem;
+                font-size: 1.5rem;
+                margin: .5rem;
+                border-radius: .2rem;
+                -webkit-border-radius: .2rem;
+                -moz-border-radius: .2rem;
+                -ms-border-radius: .2rem;
+                -o-border-radius: .2rem;
+
+                &:hover{
+                background: var(--lightMainColor2);
+
+                }
+               }
+    
+               & .btn{
+    
+               & button{
+                 width: 14rem;
+                 height: 4rem;
+                 margin-top: 1rem;
+                 background: rgba(155, 224, 51, 0.55);
+
+                 &:hover{
+                 box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                  
+                 }
+                 
+                 & a{
+                    text-decoration: none;
+                    font-weight: 600;
+                 }
+                 
+               }
+            }
+        }
+        }
+    
+
+        & .middle-section{
+            width: 95rem;
+            height: 79rem;
+            padding-left: 34rem;
+    
+            & p{
+                width: 50rem;
+                font-size: 2.2rem;
+                line-height: 1.5;
+            }
+    
+        }
+    }
+}
+
+/***** End Section1 Start *****/
